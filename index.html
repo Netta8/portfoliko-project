@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="/style.css" />
     <script
       src="https://kit.fontawesome.com/8ba5aba4f0.js"
@@ -13,16 +19,27 @@
   </head>
   <body>
     <div class="sidenav">
-      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="#"><i class="fa-brands fa-instagram"></i></a>
-      <a href="#"><i class="fa-brands fa-github"></i></a>
-      <a href="#"><i class="fa-brands fa-codepen"></i></a>
+      <a href="https://www.linkedin.com/" target="_blank"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+      <a href="https://www.instagram.com/" target="_blank"
+        ><i class="fa-brands fa-instagram"></i
+      ></a>
+      <a href="https://github.com/" target="_blank"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+      <a href="https://codepen.io/" target="_blank"
+        ><i class="fa-brands fa-codepen"></i
+      ></a>
+      <a href="#" target="_blank" class="email-icon"
+        ><i class="fa-regular fa-envelope"></i
+      ></a>
     </div>
     <main>
       <nav>
         <ul>
           <li><a href="/about.html" target="_blank">About Me</a></li>
-          <li><a href="#" target="_blank">My Works</a></li>
+          <li><a href="/my-works.html" target="_blank">My Works</a></li>
           <li><a href="#" target="_blank">Contact Me</a></li>
         </ul>
       </nav>
@@ -164,7 +181,103 @@
           </p>
         </div>
       </section>
-      <footer><p>Netta Barel ©2023</p></footer>
+
+      <section class="carousel">
+        <h1>Projects</h1>
+        <p><strong>Most recent work</strong></p>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="/img/coffee-house.jpg"
+                class="d-block w-100"
+                alt="Coffee House Website"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Coffee House Website</h5>
+                <p>
+                  First Project, a Website adaptable to all devices, using HTML
+                  & CSS (Group Project).
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/img/weather-app-4_feature.jpg"
+                class="d-block w-100"
+                alt="Weather-App"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Weather-App</h5>
+                <p>
+                  A weather application that adapts itself to the user and the
+                  location he is looking for in the world at any given time.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/img/donation-project.png"
+                class="d-block w-100"
+                alt="Donation"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>The Donation Patrol</h5>
+                <p>
+                  A site that is connected to the sites of the German Red Cross
+                  and helps to collect donations.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
     </div>
+    <footer><p>Netta Barel ©2023</p></footer>
   </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
 </html>
