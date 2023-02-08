@@ -58,7 +58,7 @@ body {
 }
 
 .email-icon {
-  margin-top: 650px;
+  margin-top: 700px;
 }
 
 header {
@@ -180,5 +180,20 @@ footer {
   .strength3,
   .strength4 {
     width: 200px;
+  }
+
+  h5 {
+    font-size: 9rem;
+  }
+
+  main {
+    margin: auto;
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  h7 {
+    line-height: 1.8;
   }
 }
