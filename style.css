@@ -60,7 +60,7 @@ main {
 }
 
 .email-icon {
-  margin-top: 660px;
+  margin-top: 600px;
 }
 
 h1 {
@@ -291,5 +291,39 @@ footer {
     margin: auto;
     margin-bottom: 50px;
     margin-top: 80px;
+  }
+
+  .Qualification {
+    margin-top: 100px;
+  }
+
+  .front-end-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "SASS Bootstrap React" "Javascript HTML CSS";
+  }
+
+  .HTML {
+    grid-area: HTML;
+  }
+  .CSS {
+    grid-area: CSS;
+  }
+  .React {
+    grid-area: React;
+  }
+  .JS {
+    grid-area: Javascript;
+  }
+  .SASS {
+    grid-area: SASS;
+  }
+  .Bootstrap {
+    grid-area: Bootstrap;
+  }
+
+  .email-icon {
+    margin-top: 650px;
   }
 }

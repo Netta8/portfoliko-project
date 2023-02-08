@@ -58,7 +58,7 @@ body {
 }
 
 .email-icon {
-  margin-top: 700px;
+  margin-top: 650px;
 }
 
 header {
@@ -195,5 +195,9 @@ footer {
 
   h7 {
     line-height: 1.8;
+  }
+
+  .email-icon {
+    margin-top: 720px;
   }
 }

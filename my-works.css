@@ -58,7 +58,7 @@ body {
 }
 
 .email-icon {
-  margin-top: 650px;
+  margin-top: 600px;
 }
 
 header {
@@ -131,4 +131,10 @@ footer {
 .project3 {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .email-icon {
+    margin-top: 670px;
+  }
 }
