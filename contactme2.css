@@ -74,12 +74,6 @@ header {
   animation: color 9s infinite linear;
 }
 
-main {
-  width: 90%;
-  margin: auto;
-  margin-left: 10%;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -152,27 +146,47 @@ p {
   margin: 20px;
 }
 
-img {
-  width: 300px;
-  height: 250px;
+label {
+  color: #e7ab79;
+  font-family: "Permanent Marker", cursive;
 }
 
-footer {
-  background: #ffdca9; /* Fallback */
-  animation: color 9s infinite linear;
-  text-align: center;
-  padding: 0.7em;
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #4c3a51;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-.project1,
-.project2,
-.project3 {
-  margin-top: 30px;
-  margin-bottom: 30px;
+input[type="submit"] {
+  background-color: #e7ab798e;
+  color: #b25068;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
 }
 
-@media only screen and (min-width: 1440px) {
-  .email-icon {
-    margin-top: 670px;
-  }
+input[type="submit"]:hover {
+  background-color: #b25068;
+  color: #4c3a51;
+  font-size: larger;
+  font-weight: bolder;
+  width: 11rem;
+  height: 3rem;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f8ede3;
+  padding: 20px;
+  width: 70%;
+  height: 60%;
 }

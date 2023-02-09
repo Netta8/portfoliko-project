@@ -58,7 +58,7 @@ body {
 }
 
 .email-icon {
-  margin-top: 650px;
+  margin-top: 600px;
 }
 
 header {
@@ -79,6 +79,44 @@ main {
   margin: auto;
   margin-left: 10%;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #dddddd00;
+  text-align: center;
+  background: #ffdca9; /* Fallback */
+  animation: color 9s infinite linear;
+}
+
+li {
+  width: 80px;
+  margin: 5px;
+  padding: 14px 16px;
+  border-radius: 5px;
+  border: 1px solid #e7ab79a8;
+  padding: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+li,
+a {
+  display: inline-block;
+  text-align: center;
+  color: #774360;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Permanent Marker", cursive;
+}
+
+li a:hover {
+  background-color: #e7ab79;
+  color: #4c3a51;
+}
+
 h1 {
   text-align: center;
   font-family: "Gloria Hallelujah", cursive;
@@ -198,6 +236,6 @@ footer {
   }
 
   .email-icon {
-    margin-top: 720px;
+    margin-top: 650px;
   }
 }
