@@ -58,7 +58,7 @@ body {
 }
 
 .email-icon {
-  margin-top: 600px;
+  margin-top: 550px;
 }
 
 header {
@@ -173,6 +173,6 @@ footer {
 
 @media only screen and (min-width: 1440px) {
   .email-icon {
-    margin-top: 670px;
+    margin-top: 600px;
   }
 }
