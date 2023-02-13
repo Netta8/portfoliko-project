@@ -198,7 +198,15 @@ li a:hover {
 .arrow {
   margin-top: 30px;
   animation: updown 2s ease infinite;
+  font-size: 30px;
 }
+
+.arrow:hover {
+  animation-play-state: paused;
+  font-size: 35px;
+  cursor: crosshair;
+}
+
 @keyframes updown {
   0% {
     transform: translateY(-100%);
