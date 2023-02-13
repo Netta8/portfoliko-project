@@ -207,6 +207,18 @@ li a:hover {
   cursor: crosshair;
 }
 
+.caru-text {
+  font-family: "Gloria Hallelujah", cursive;
+  color: #e7ab79;
+  font-weight: 700;
+}
+.caru-text1 {
+  font-family: "Gloria Hallelujah", cursive;
+  color: #b25068;
+  font-weight: 700;
+  font-size: larger;
+}
+
 @keyframes updown {
   0% {
     transform: translateY(-100%);
