@@ -150,10 +150,13 @@ li a:hover {
 }
 
 .avatar {
-  width: 150px;
-  height: 150px;
+  width: 350px;
+  height: 300px;
   border-radius: 50%;
   margin-top: 10px;
+  -webkit-box-shadow: -14px -9px 23px -8px rgba(201, 187, 201, 1);
+  -moz-box-shadow: -14px -9px 23px -8px rgba(201, 187, 201, 1);
+  box-shadow: -14px -9px 23px -8px rgba(201, 187, 201, 1);
 }
 
 .about {
